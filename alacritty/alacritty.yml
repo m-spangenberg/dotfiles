@@ -1,0 +1,93 @@
+# Configuration for Alacritty, the GPU enhanced terminal emulator.
+
+window:
+  # Window dimensions
+  #dimensions:
+  #  columns: 0
+  #  lines: 0
+
+  # Window padding
+  padding:
+    x: 8
+    y: 8
+
+  # Window decorations
+  decorations: none
+
+  # Background opacity
+  opacity: 0.95
+
+scrolling:
+  # Maximum number of lines in the scrollback buffer.
+  history: 10000
+
+  # Scrolling distance multiplier.
+  multiplier: 3
+
+# Font configuration
+font:
+  # Point size
+  size: 8.0
+
+draw_bold_text_with_bright_colors: true
+
+#colors (Dracula)
+colors:
+  # Default colors
+  primary:
+    background: '#282a36'
+    foreground: '#f8f8f2'
+
+  # Normal colors
+  normal:
+    black:   '#000000'
+    red:     '#ff5555'
+    green:   '#50fa7b'
+    yellow:  '#f1fa8c'
+    blue:    '#caa9fa'
+    magenta: '#ff79c6'
+    cyan:    '#8be9fd'
+    white:   '#bfbfbf'
+
+  # Bright colors
+  bright:
+    black:   '#575b70'
+    red:     '#ff6e67'
+    green:   '#5af78e'
+    yellow:  '#f4f99d'
+    blue:    '#caa9fa'
+    magenta: '#ff92d0'
+    cyan:    '#9aedfe'
+    white:   '#e6e6e6'
+
+  # Cursor colors
+  cursor:
+    text: CellBackground
+    cursor: CellForeground
+
+  # Search colors
+  search:
+    matches:
+      foreground: '#000000'
+      background: '#ffffff'
+    focused_match:
+      foreground: '#ffffff'
+      background: '#000000'
+
+    bar:
+      background: '#c5c8c6'
+      foreground: '#1d1f21'
+
+  # Line indicator
+  line_indicator:
+    foreground: None
+    background: None
+
+cursor:
+  # Cursor style
+  style:
+    # Cursor shape
+    shape: Underline
+
+    # Cursor blinking state
+    blinking: On

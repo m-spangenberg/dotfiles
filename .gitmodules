@@ -1,0 +1,12 @@
+[submodule "tmux/.tmux/plugins/tmux-sensible"]
+	path = tmux/.tmux/plugins/tmux-sensible
+	url = https://github.com/tmux-plugins/tmux-sensible.git
+[submodule "tmux/.tmux/plugins/tpm"]
+	path = tmux/.tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm.git
+[submodule "tmux/.tmux/plugins/tmux"]
+	path = tmux/.tmux/plugins/tmux
+	url = https://github.com/dracula/tmux.git
+[submodule "vim/.vim/pack/themes/start/dracula"]
+	path = vim/.vim/pack/themes/start/dracula
+	url = https://github.com/dracula/vim.git
