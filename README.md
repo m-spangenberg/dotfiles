@@ -1,22 +1,7 @@
-# Dotfiles - Plurpl
+# Dotfiles
 
-My super-basic dotfiles, I :heart: ultraviolet purple and neon green, so here's a plurpl edition.
-
-```bash
-########################################################
-##           a Qtile desktop config by                ##
-## ,------. ,--.   ,--. ,--.,------. ,------. ,--.    ##
-## |  .--. '|  |   |  | |  ||  .--. '|  .--. '|  |    ##
-## |  '--' ||  |   |  | |  ||  '--'.'|  '--' ||  |    ##
-## |  | --' |  '--.'  '-'  '|  |\  \ |  | --' |  '--. ##
-## `--'     `-----' `-----' `--' '--'`--'     `-----' ##
-##              m.spangenberg (2022)                  ##
-########################################################
-```
+My super-basic dotfiles, with touches of Dracula.
 
 ## Summary
 
-These dotfiles are what I generally use on my Linux machines, they're also part of an Ansible Playbook I wrote to take an old Macbook Air from a basic Arch install to a relatively functional environment with as little hassle as possible. So fair warning, before you yeetus-deleetus your System32, this desktop config is as much about learning Bash and Ansible as it is about ricing Arch Linux for fun and aesthetics. Things will break.
-
-
-
+I don't consider myself much of a console-crusader, but I enjoy theming and ricing Linux as much as anyone else, and somewhere in here are a few genuinely useful tweaks. These files are also part of an Ansible Playbook I wrote to automate the process of taking a minimal Arch Linux install to a relatively functional tiling window manager environment with as little hassle as possible. Fair warning: my `.vimrc` is perpetually in a state of disarray.
